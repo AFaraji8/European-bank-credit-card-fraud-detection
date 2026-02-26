@@ -38,15 +38,6 @@ The project evaluates models on:
 > **Note:** In fraud detection, **Recall** is often more important than Accuracy because it measures the system's ability to catch as many fraudulent cases as possible.
 
 
-## 📊 Data & Model Labels
-* **`Class 0`**: Normal/Legitimate transactions (Majority class).
-* **`Class 1`**: Fraudulent transactions (Minority class).
-* **`StandardScaler`**: Used to normalize features (Mean=0, Variance=1).
-* **Confusion Matrix**: 
-    * **TN / TP**: Correctly identified normal/fraud cases.
-    * **FN / FP**: Misidentified cases (Critical for fraud analysis).
-
-
 ## 📉 Visualizations
 
 The script generates:
