@@ -37,17 +37,6 @@ The project evaluates models on:
 
 > **Note:** In fraud detection, **Recall** is often more important than Accuracy because it measures the system's ability to catch as many fraudulent cases as possible.
 
-## 💻 How to Run
-
-1.  Place the `creditcard.csv` file in the project directory.
-2.  Ensure you have the required libraries installed:
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
-    ```
-3.  Execute the script:
-    ```bash
-    python fraud_detection.py
-    ```
 
 ## 📉 Visualizations
 
@@ -56,4 +45,4 @@ The script generates:
 - **Confusion Matrix:** A heatmap showing True Positives, False Positives, True Negatives, and False Negatives.
 
 ---
-Developed as part of a Machine Learning exploration project.
+Developed as part of an AI project.
